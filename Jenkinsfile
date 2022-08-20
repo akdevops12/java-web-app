@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Slack Notification') {
       steps {
-          slackSend channel: 'jenkins-notification', message: 'welcome to jenkins and slack notification'
+          slackSend channel: 'jenkins-notification', color: 'good', message: 'testing for the color', teamDomain: 'akloudservices', tokenCredentialId: 'slack'
         }
       }
   }

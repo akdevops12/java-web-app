@@ -11,5 +11,10 @@ pipeline {
         }
       }
     }
+    stage('Slack Notification') {
+      steps {
+          slackSend channel: 'jenkins-notification', message: 'welcome to jenkins and slack notification'
+        }
+      }
   }
 }

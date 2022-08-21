@@ -18,19 +18,4 @@ public class DemoApplication {
     return "Hello Docker World!";
   }
 
-//    @RequestMapping("/")
-//    public String home() {
-//     return "Hello Docker World!";
-//   }
-
-// @RequestMapping("/")
-//   public int method(){
-// 	public string mySring;
-// 	return 1 ;
-//   }
-
-// @RequestMapping("/")
-//    public String welcome() {
-//     return "Welcome Home";
-//   }
 }

@@ -11,10 +11,10 @@ pipeline {
         }
       }
     }
-    stage('Slack Notification') {
-      steps {
-          //slackSend channel: 'jenkins-notification', color: 'good', message: 'yannick slack test', teamDomain: 'akloudservices', tokenCredentialId: 'slack'
-        }
-      }
+    // stage('Slack Notification') {
+    //   steps {
+    //       slackSend channel: 'jenkins-notification', color: 'good', message: 'yannick slack test', teamDomain: 'akloudservices', tokenCredentialId: 'slack'
+    //     }
+    //   }
   }
 }

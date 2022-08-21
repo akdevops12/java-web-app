@@ -28,6 +28,11 @@ public class DemoApplication {
     return 1 ;
   }
 
+  	@RequestMapping("/")
+  public String home() {
+    return "Hello Docker World!";
+  }
+
  
 }
 

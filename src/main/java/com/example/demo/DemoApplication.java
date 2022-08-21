@@ -17,5 +17,17 @@ public class DemoApplication {
   public String home() {
     return "Hello Docker World!";
   }
+
+  	@RequestMapping("/")
+  public String newhome() {
+    return "Hello new Docker World!";
+  }
+
+  	@RequestMapping("/")
+  public int intHome() {
+    return 1 ;
+  }
+
+ 
 }
 

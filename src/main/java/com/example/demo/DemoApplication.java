@@ -17,4 +17,17 @@ public class DemoApplication {
   public String home() {
     return "Hello Docker World!";
   }
+
+   public String home() {
+    return "Hello Docker World!";
+  }
+
+  public int method(){
+	public string mySring;
+	return 1 ;
+  }
+
+   public String welcome() {
+    return "Welcome Home";
+  }
 }

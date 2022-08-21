@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Slack Notification') {
       steps {
-          slackSend channel: 'yannick', color: 'good', message: 'yannick slack test', teamDomain: 'akloudservices', tokenCredentialId: 'slack'
+          //slackSend channel: 'jenkins-notification', color: 'good', message: 'yannick slack test', teamDomain: 'akloudservices', tokenCredentialId: 'slack'
         }
       }
   }

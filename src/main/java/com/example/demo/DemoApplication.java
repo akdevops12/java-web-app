@@ -17,5 +17,5 @@ public class DemoApplication {
   public String home() {
     return "Hello Docker World!";
   }
-
 }
+

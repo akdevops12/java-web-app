@@ -7,7 +7,7 @@ pipeline {
 //     	DOCKERHUB_CREDENTIALS=credentials('dockerhub')
 //   }
   stages {
-    stage('Login'){
+    stage('Log'){
         echo 'holla'
     }
     // stage('Login') {

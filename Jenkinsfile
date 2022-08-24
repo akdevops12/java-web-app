@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent any
 
     options {
@@ -40,10 +40,10 @@ pipeline {
             }
         }
 
-        post {
-            always {
-                sh 'docker logout'
-            }
-        }
+        // post {
+        //     always {
+        //         sh 'docker logout'
+        //     }
+        // }
     }
 }

@@ -8,7 +8,10 @@ pipeline {
 //   }
   stages {
     stage('Log'){
-        echo 'holla'
+        steps{
+                echo 'holla'
+        }
+        
     }
     // stage('Login') {
 	// 		steps {
